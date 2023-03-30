@@ -1,4 +1,4 @@
-package com.ka.cursoemvideo.aula15;
+package com.ka.cursojava.aula15;
 
 import java.util.Scanner;
 
