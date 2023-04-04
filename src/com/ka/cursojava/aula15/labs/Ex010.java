@@ -8,8 +8,8 @@ import java.util.Scanner;
 public class Ex010 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Você é estudante de turno matutino [M], vespertino [V] ou noturno [N]? Digite a opção " +
-                "desejada: " +
+        System.out.print("Você é estudante de turno matutino [M], vespertino [V] ou noturno [N]? Digite a letra " +
+                "da opção desejada: " +
                 " ");
         String turno = scan.next().toUpperCase();
 
