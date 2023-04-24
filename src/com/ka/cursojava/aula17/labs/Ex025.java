@@ -38,6 +38,7 @@ public class Ex025 {
                 if (preco == 0) {
                     validacao = false;
                 } else if (preco == -1) {
+                    System.out.println("Caixa fechado!");
                     System.exit(0);
                 }
 
