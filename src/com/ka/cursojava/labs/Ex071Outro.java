@@ -1,6 +1,4 @@
-/* Sendo H = 1 + 1/2 + 1/3 + 1/4 + ... + 1/n, faça um programa que calcule o valor de h com n termos.
- */
-
+/* Sendo H = 1 + 1/2 + 1/3 + 1/4 + ... + 1/n, faça um programa que calcule o valor de h com n termos. */
 package com.ka.cursojava.labs;
 
 import java.util.Scanner;
