@@ -33,7 +33,7 @@ public class Ex082Outro {
         int[] vetor = new int[tamanho];
         Random gerador = new Random();
         for(int i = 0; i < vetor.length; i++) {
-            vetor[i] = gerador.nextInt(10);
+            vetor[i] = gerador.nextInt(50);
         }
         return vetor;
     }
