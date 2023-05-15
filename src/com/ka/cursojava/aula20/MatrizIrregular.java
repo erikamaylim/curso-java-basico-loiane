@@ -36,10 +36,9 @@ public class MatrizIrregular {
             System.out.printf("Entrevistado %d tem %d filhos: %n", i + 1, nomesFilhos[i].length);
             for ( int j = 0; j < nomesFilhos[i].length; j++) {
                 System.out.printf("%s ", nomesFilhos[i][j]);
-                if (j == nomesFilhos[i].length - 1) {
-                    System.out.println();
-                }
             }
+
+            System.out.println();
         }
 
 
