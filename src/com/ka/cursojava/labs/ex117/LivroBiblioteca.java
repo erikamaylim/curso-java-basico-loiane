@@ -2,7 +2,7 @@ package com.ka.cursojava.labs.ex117;
 
 import java.util.Date;
 
-public class LivroDeBiblioteca {
+public class LivroBiblioteca {
     String nome;
     String autor;
     int numeroPaginas;

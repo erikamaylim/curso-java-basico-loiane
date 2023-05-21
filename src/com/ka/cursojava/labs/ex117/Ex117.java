@@ -1,12 +1,10 @@
 package com.ka.cursojava.labs.ex117;
 
-import com.ka.cursojava.labs.ex115.Livro;
-
 import java.util.Date;
 
 public class Ex117 {
     public static void main(String[] args) {
-        LivroDeBiblioteca livro = new LivroDeBiblioteca();
+        LivroBiblioteca livro = new LivroBiblioteca();
         livro.nome = "As mentiras de Locke Lamora";
         livro.autor = "Scott Lynch ";
         livro.anoPublicacao = 2014;
