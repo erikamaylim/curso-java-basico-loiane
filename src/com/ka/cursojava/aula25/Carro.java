@@ -8,7 +8,7 @@ public class Carro {
     double consumoCombustivel;
 
     void exibirAutonomia() {
-        System.out.printf("A autonomia do carro é de %.1f km", capacidadeCombustivel * consumoCombustivel);
+        System.out.printf("A autonomia do carro é de %.2f km.", capacidadeCombustivel * consumoCombustivel);
     }
 
 
