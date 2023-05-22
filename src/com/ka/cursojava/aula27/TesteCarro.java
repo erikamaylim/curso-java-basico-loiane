@@ -1,4 +1,5 @@
-package com.ka.cursojava.aula26;
+package com.ka.cursojava.aula27;
+
 
 public class TesteCarro {
     public static void main(String[] args) {
@@ -13,8 +14,12 @@ public class TesteCarro {
 
         double autonomia = van.obterAutonomia();
         System.out.printf("A autonomia do carro é de %.2f km. %n", autonomia);
-        System.out.printf("A autonomia do carro é de %.2f km. %n", van.obterAutonomia());
 
+        double qtdCombustivel10 = van.calcularCombustivel(10);
+        double qtdCombustivel15 = van.calcularCombustivel(15);
+
+        System.out.printf("qtdCombustivel10 = %.2f %n", qtdCombustivel10);
+        System.out.printf("qtdCombustivel15 = %.2f %n", qtdCombustivel15);
 
     }
 }
