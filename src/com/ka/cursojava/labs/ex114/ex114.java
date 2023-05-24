@@ -1,3 +1,6 @@
+/* Escreva uma classe para representar uma lâmpada que está à venda em um supermercado
+*/
+
 package com.ka.cursojava.labs.ex114;
 
 public class ex114 {

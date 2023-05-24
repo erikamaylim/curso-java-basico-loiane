@@ -1,3 +1,7 @@
+/* Crie uma classe para representar uma conta-corrente que possua um número, um saldo, um status que informe se é
+especial ou não e um limite
+*/
+
 package com.ka.cursojava.labs.ex118;
 
 public class Ex118 {

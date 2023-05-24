@@ -1,3 +1,7 @@
+/* Usando o resultado do exercício anterior como base, crie uma classe LivroLivraria que represente os dados básicos
+de um livro que está à venda em uma livraria
+*/
+
 package com.ka.cursojava.labs.ex116;
 
 import com.ka.cursojava.labs.ex115.Livro;
