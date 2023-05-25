@@ -27,7 +27,7 @@ public class Ex121 {
         conta.verificarUsoChequeEspecial();
 
         conta.realizarSaque(600);
-        
+
         conta.verificarUsoChequeEspecial();
 
     }
