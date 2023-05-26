@@ -10,7 +10,7 @@ public class JogoDaVelha {
 
 
     boolean validarJogada(int linha, int coluna, String sinal) {
-        if (!jogoDaVelha[linha][coluna].equals(".")) {
+        if (!jogoDaVelha[linha][coluna].equals(" ")) {
             return false;
         } else {
             jogoDaVelha[linha][coluna] = sinal;
@@ -22,7 +22,7 @@ public class JogoDaVelha {
     void imprimirTabuleiroVazio() {
         for (int i = 0; i < jogoDaVelha.length; i++) {
             for ( int j = 0; j < jogoDaVelha[i].length; j++) {
-                jogoDaVelha[i][j] = ".";
+                jogoDaVelha[i][j] = " ";
                 if (j == 1) {
                     System.out.printf(" %s ", jogoDaVelha[i][j]);
 
