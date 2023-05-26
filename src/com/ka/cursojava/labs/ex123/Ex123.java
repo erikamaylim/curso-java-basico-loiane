@@ -33,7 +33,10 @@ public class Ex123 {
             linha = valor("linha", sc);
             coluna = valor("coluna", sc);
 
-            jogoDaVelha.validarJogada(linha, coluna, sinal);
+            if (!jogoDaVelha.validarJogada(linha, coluna, sinal)) {
+                System.out.println();
+                System.out.println("Posição preenchida. Tente novamente.");
+            }
 
             jogoDaVelha.imprimirTabuleiro();
 

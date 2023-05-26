@@ -32,6 +32,7 @@ public class JogoDaVelha {
             }
             System.out.println();
         }
+        System.out.println();
     }
 
     void imprimirTabuleiro() {
@@ -46,6 +47,7 @@ public class JogoDaVelha {
             }
             System.out.println();
         }
+        System.out.println();
     }
 
     boolean verificarGanhador(String sinal) {
