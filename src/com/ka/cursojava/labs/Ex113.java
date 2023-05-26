@@ -16,7 +16,7 @@ public class Ex113 {
         String[][] jogoDaVelha = new String[3][3];
 
         boolean ganhou = false;
-        int jogada = 1, jogador = 1, linha = 0, coluna = 0;
+        int jogada = 1, linha = 0, coluna = 0;
         String sinal;
 
         System.out.println("Jogador 1 -> X");
