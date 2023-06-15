@@ -7,6 +7,9 @@ public class Carro {
     private Double capacidadeCombustivel;
     private Double consumoCombustivel;
 
+    public Carro() {
+    }
+
     public Carro(String marca, String modelo, Integer numeroPassageiros, Double capacidadeCombustivel, Double consumoCombustivel) {
         this.setMarca(marca);
         this.setModelo(modelo);

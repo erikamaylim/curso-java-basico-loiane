@@ -6,6 +6,8 @@ public class TesteCarro {
 
         System.out.println(van);
 
+        Carro c1 = new Carro();
+
 
     }
 
