@@ -1,7 +1,5 @@
 package com.ka.cursojava.labs.ex123;
 
-import java.util.Scanner;
-
 public class JogoDaVelha {
     String[][] jogoDaVelha = new String[3][3];
 
