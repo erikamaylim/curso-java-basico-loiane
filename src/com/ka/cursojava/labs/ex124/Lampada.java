@@ -18,14 +18,26 @@ public class Lampada {
     public void ligar() {
         if (!this.isLigada()) {
             this.setLigada(true);
+            System.out.println("A lâmpada foi ligada");
+        } else {
+            System.out.println("A lâmpada já está ligada");
         }
-        System.out.println("A lâmpada foi ligada");
     }
 
     public void desligar() {
         if (this.isLigada()) {
             this.setLigada(false);
+            System.out.println("A lâmpada foi desligada");
+        } else {
+            System.out.println("A lâmpada já está desligada");
         }
-        System.out.println("A lâmpada foi desligada");
+    }
+
+    public void mostrarEstado() {
+        if (isLigada()) {
+            System.out.println("Ligada");
+        } else {
+            System.out.println("Desligada");
+        }
     }
 }
