@@ -16,6 +16,16 @@ public class Ex131 {
         imprimirTela(fibonacciSemRecursividade(n));
         System.out.print("Com recursividade: ");
         imprimirTela(fibonacciComRecursividade(n));
+        System.out.println("Exibindo a sequência do método sem recursividade: ");
+        for(int i = 1; i <= n; i++) {
+            System.out.printf("%d ", fibonacciSemRecursividade(i));
+        }
+        System.out.println();
+        System.out.println("Exibindo a sequência do método com recursividade: ");
+        for(int i = 1; i <= n; i++) {
+            System.out.printf("%d ", fibonacciComRecursividade(i));
+        }
+
     }
 
     public static int fibonacciSemRecursividade(int n) {
