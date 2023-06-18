@@ -21,16 +21,16 @@ public class Ex131 {
     public static int fibonacciSemRecursividade(int n) {
         int t1 = 0;
         int t2 = 1;
-        int t3 = t1 + t2;
+        int t3 = 0;
         if (n == 1) {
             return t1;
         } else if (n == 2) {
             return t2;
         }
-        for (int i = 3; i < n; i++) {
+        for (int i = 3; i <= n; i++) {
+            t3 = t1 + t2;
             t1 = t2;
             t2 = t3;
-            t3 = t1 + t2;
         }
         return t3;
     }
