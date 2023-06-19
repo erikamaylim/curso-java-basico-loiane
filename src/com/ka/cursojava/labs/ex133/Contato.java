@@ -42,7 +42,7 @@ public class Contato {
     public String obterInfo() {
         return "\tNome: " + nomeContato +
                 ", Telefone: " + telefone +
-                ", Email: " + email;
+                ", E-mail: " + email;
     }
 
 }
