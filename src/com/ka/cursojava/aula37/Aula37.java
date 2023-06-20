@@ -1,6 +1,6 @@
 package com.ka.cursojava.aula37;
 
-public class aula37 {
+public class Aula37 {
     public static void main(String[] args) {
 //        Aluno a1 = new Aluno();
 //        a1.setNome("Erika");
