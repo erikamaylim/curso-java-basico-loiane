@@ -1,6 +1,6 @@
-package com.ka.cursojava.aula40;
+package com.ka.cursojava.aula42;
 
-public class Pessoa {
+public final class Pessoa {
     private String nome;
     private String endereco;
     private String telefone;
@@ -59,7 +59,11 @@ public class Pessoa {
     public String obterEtiquetaEndereco() {
         return this.getEndereco();
     }
+    public void imprimirEtiquetaEndereco() {
+        System.out.println(this.obterEtiquetaEndereco());
+    }
+    public void metodoClasseMae() {
 
-    public void metodoClasseMaePessoa() {}
+    }
 
 }

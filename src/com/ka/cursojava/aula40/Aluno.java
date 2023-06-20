@@ -48,5 +48,5 @@ public class Aluno extends Pessoa {
         return s;
     }
 
-    public void metodoClasseFilha() {}
+    public void metodoClasseFilhaAluno() {}
 }

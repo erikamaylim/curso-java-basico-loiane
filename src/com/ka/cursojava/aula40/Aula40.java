@@ -10,11 +10,11 @@ public class Aula40 {
         p1.setEndereco("Rua 1, número 1");
         a1.setEndereco("Rua 2, número 2");
         prof1.setEndereco("Rua 3, número 3");
-        p1.metodoClasseMae();
-        a1.metodoClasseMae();
+        p1.metodoClasseMaePessoa();
+        a1.metodoClasseMaePessoa();
 //        a1.metodoClasseFilha();  // Não é possível invocar método da classe Aluno
-        a2.metodoClasseMae();
-        a2.metodoClasseFilha();
+        a2.metodoClasseMaePessoa();
+        a2.metodoClasseFilhaAluno();
 
         System.out.println(p1.obterEtiquetaEndereco());
         System.out.println(a1.obterEtiquetaEndereco());
