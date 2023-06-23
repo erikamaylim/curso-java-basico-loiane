@@ -23,9 +23,9 @@ public class PessoaJuridica extends Contribuinte {
         double rendaLiquida = this.getRendaBruta() - this.getImposto();
         return super.toString() +
                 "\n\tTipo: Pessoa Jurídica" +
-                "\n\t(+)Renda Bruta: R$ " + String.format("%,.2f", this.getRendaBruta()) +
-                "\n\t(-)Alíquota: " + String.format("%.0f", aliquota * 100) + "%" +
-                "\n\t(-)Imposto: R$ " + String.format("%,.2f", this.getImposto()) +
-                "\n\tRenda Líquida: R$ " + String.format("%,.2f", rendaLiquida);
+                "\n\tReceita Bruta: R$ " + String.format("%,.2f", this.getRendaBruta()) +
+                "\n\t(-) Dedução da Receita Bruta: " +
+                "\n\t\tImposto: R$ " + String.format("-%,.2f", this.getImposto()) +
+                "\n\t(=) Receita Líquida: R$ " + String.format("%,.2f", rendaLiquida);
     }
 }
