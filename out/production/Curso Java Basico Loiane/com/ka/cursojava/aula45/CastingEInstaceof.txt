@@ -1,0 +1,24 @@
+
+Conversão de Objetos (casting)
+    - Converter uma subclasse para o tipo superclasse ou vice-versa
+    - Upcasting e Downcasting
+
+    Aluno aluno = new Aluno();
+    Object pessoa = aluno;
+
+                       Object                     Upcasting
+                         ↑                            ↕
+                       Pessoa                    Downcasting
+                      ↗      ↖
+                  Aluno      Professor
+
+    Upcasting: fazer um objeto se passar por um objeto que seja um supertipo dele
+        Aluno aluno = new Aluno();
+        Pessoa alunoPessoa = aluno;   (upcasting)
+        - Geralmente é automático
+        - Não é necessário fazer manualmente, mas é permitido. Ex: Pessoa aluno = (Pessoa) new Aluno();
+
+    Downcasting: fazer um objeto se passar por um objeto que seja um subtipo. Não há garantias que funcione
+        Aluno aluno = new Aluno();
+        Pessoa pessoaAluno = aluno;  (upcasting)
+        Aluno aluno2 = (Aluno) pessoaAluno; (downcasting)
