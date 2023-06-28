@@ -1,0 +1,22 @@
+Java permite herança múltipla?
+R: Não, Java não permite que uma classe estenda mais de uma classe. Porém, Java permite que interfaces estendam outras interfaces. Ou seja, existe herança múltipla de interfaces, mas não existe herança múltipla de classes.
+
+Interface:
+    - herança múltipla permitida. Uma interface pode estender várias interfaces.
+    - palavra-chave implements é utilizada para implementar uma interface
+    - por padrão, todos os métodos são públicos e abstratos (public abstract) - não tem necessidade de declarar os mesmos
+    - interfaces não tem implementação
+    - todos os métodos de uma interface precisam ser sobrescritos
+    - todas as variáveis declaradas numa interface são public static final (constantes)
+    - interfaces não tem construtores
+    - métodos não podem ser estáticos
+Classe Abstrata:
+    - herança múltipla não é possível. Uma classe só pode estender uma única classe
+    - palavra-chave extends é utilizada para estender uma classe
+    - métodos podem ter modificadores public e abstract se necessário, e podem utilizar outros modificadores também
+    - podem ter implementação parcial
+    - somente métodos abstratos precisam ser sobrescritos (obrigatório)
+    - variáveis podem ser declaradas como public static final se necessário, mas não é obrigatório
+    - classes abstratas podem ter construtores
+    - métodos não abstratos podem ser estáticos
+
