@@ -1,6 +1,6 @@
-package com.ka.cursojava.labs.ex138;
+package com.ka.cursojava.labs.ex138Ex139Ex140;
 
-public class Triangulo extends Figura2D{
+public class Triangulo extends Figura2D  {
     private double base;
     private double altura;
 
@@ -18,5 +18,10 @@ public class Triangulo extends Figura2D{
 
     public void setAltura(double altura) {
         this.altura = altura;
+    }
+
+    @Override
+    public double calcularArea() {
+        return (this.getBase() * this.getAltura()) / 2;
     }
 }

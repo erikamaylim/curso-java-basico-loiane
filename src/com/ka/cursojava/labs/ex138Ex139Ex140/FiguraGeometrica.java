@@ -1,4 +1,4 @@
-package com.ka.cursojava.labs.ex138;
+package com.ka.cursojava.labs.ex138Ex139Ex140;
 
 public abstract class FiguraGeometrica {
     private String nome;
