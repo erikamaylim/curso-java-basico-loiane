@@ -5,6 +5,14 @@ public class Cilindro extends Figura3D  {
 
     private double raio;
 
+    public Cilindro() {
+    }
+
+    public Cilindro(double altura, double raio) {
+        this.altura = altura;
+        this.raio = raio;
+    }
+
     public double getRaio() {
         return raio;
     }

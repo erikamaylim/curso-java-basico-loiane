@@ -3,6 +3,13 @@ package com.ka.cursojava.labs.ex138Ex139Ex140;
 public class Quadrado extends Figura2D {
     private double lado;
 
+    public Quadrado() {
+    }
+
+    public Quadrado(double lado) {
+        this.lado = lado;
+    }
+
     public double getLado() {
         return lado;
     }

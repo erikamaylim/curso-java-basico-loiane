@@ -4,6 +4,14 @@ public class Triangulo extends Figura2D  {
     private double base;
     private double altura;
 
+    public Triangulo() {
+    }
+
+    public Triangulo(double base, double altura) {
+        this.base = base;
+        this.altura = altura;
+    }
+
     public double getBase() {
         return base;
     }

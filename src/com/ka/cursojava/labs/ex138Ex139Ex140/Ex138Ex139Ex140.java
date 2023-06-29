@@ -14,4 +14,42 @@ imprimindo na tela a área e o volume (quando aplicável). Dica: você pode usar
 package com.ka.cursojava.labs.ex138Ex139Ex140;
 
 public class Ex138Ex139Ex140 {
+    public static void main(String[] args) {
+        Quadrado quad = new Quadrado(2);
+        quad.setNome("Quadrado");
+        Circulo cir = new Circulo(2);
+        cir.setNome("Circulo");
+        Triangulo tri = new Triangulo(3, 2);
+        tri.setNome("Triangulo");
+        Cubo cubo = new Cubo(3);
+        cubo.setNome("Cubo");
+        Cilindro cil = new Cilindro(3, 2);
+        cil.setNome("Cilindro");
+        Piramide pir = new Piramide(3, 2, 4, 4, quad);
+        pir.setNome("Piramide");
+
+        FiguraGeometrica[] figuras = new FiguraGeometrica[6];
+        figuras[0] = quad;
+        figuras[1] = cir;
+        figuras[2] = tri;
+        figuras[3] = cubo;
+        figuras[4] = cil;
+        figuras[5] = pir;
+
+        for (FiguraGeometrica figura : figuras) {
+            System.out.println("----------------------");
+            System.out.println(figura.getNome() + ":");
+            if(figura instanceof Figura2D) {
+                Figura2D f2d = (Figura2D) figura;
+                System.out.println("\tÁrea: " + String.format("%.1f", f2d.calcularArea()));
+            }
+            if(figura instanceof Figura3D) {
+                Figura3D f3d = (Figura3D) figura;
+                System.out.println("\tÁrea: " + String.format("%.1f", f3d.calcularArea()));
+                System.out.println("\tVolume: " + String.format("%.1f", f3d.calcularVolume()));
+            }
+        }
+
+
+    }
 }

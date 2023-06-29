@@ -7,6 +7,17 @@ public class Piramide extends Figura3D  {
     private double apotema;
     private Figura2D base;
 
+    public Piramide() {
+    }
+
+    public Piramide(double altura, double arestabase, double numeroArestas, double apotema, Figura2D base) {
+        this.altura = altura;
+        this.arestabase = arestabase;
+        this.numeroArestas = numeroArestas;
+        this.apotema = apotema;
+        this.base = base;
+    }
+
     public double getAltura() {
         return altura;
     }

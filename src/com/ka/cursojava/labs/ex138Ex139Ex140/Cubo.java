@@ -3,6 +3,13 @@ package com.ka.cursojava.labs.ex138Ex139Ex140;
 public class Cubo extends Figura3D {
     private double aresta;
 
+    public Cubo() {
+    }
+
+    public Cubo(double aresta) {
+        this.aresta = aresta;
+    }
+
     public double getAresta() {
         return aresta;
     }
