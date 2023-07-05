@@ -1,0 +1,20 @@
+Tratar várias exceptions no Java
+    try {
+        // bloco que é monitorado para erros
+    } catch (TipoDaException1 exception) {
+        // Tratamento do erro 1
+    } catch (TipoDa Exception2 exception) {
+        // Tratamento do erro 2
+    }
+
+    ⋄ Para capturar uma exception gerérica, use Throwable
+    OBS: Não é uma boa prática
+
+Para versões > Java 7
+    ⋄ Multi-catch de exceptions similares (da mesma família)
+    Ex:
+        catch (ArithmeticException | ArrayIndexOutOfBoundsException exc) {
+            System.out.println("Ocorreu um erro");
+        }
+
+
