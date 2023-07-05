@@ -1,0 +1,28 @@
+try-catch-finally
+    try {
+        // bloco que é monitorado para erros
+    } catch (TipoDaException1 exception) {
+        // tratamento do erro 1
+    } catch (TipoDaException2 exception) {
+        // tratamento do erro 2
+    } finally {
+        // executado após o try ou catch
+    }
+
+    ⋄ O finally sempre é executado. Saída do Aula49 como exemplo:
+        4 / 2 = 2
+        Essa linha é impressa sempre após o try ou o catch
+        Erro ao dividir por zero
+        Essa linha é impressa sempre após o try ou o catch
+        16 / 4 = 4
+        Essa linha é impressa sempre após o try ou o catch
+        32 / 8 = 4
+        Essa linha é impressa sempre após o try ou o catch
+        Erro ao dividir por zero
+        Essa linha é impressa sempre após o try ou o catch
+        Posição do array inválida
+        Essa linha é impressa sempre após o try ou o catch
+
+    ⋄ O finally só não é executado quando há o System.exit(0). Saída do FinallyPegadinha como exemplo:
+
+
