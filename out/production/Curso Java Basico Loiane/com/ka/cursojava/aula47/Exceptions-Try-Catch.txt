@@ -1,7 +1,6 @@
 Tratamento de exceções no Java
     ⋄ Palavras-chave deste módulo:
         • Try, catch, throw, throws e finally
-
     ⋄ Para esta aula:
         • Try e catch
 
@@ -11,10 +10,3 @@ Tratamento de exceções no Java
         catch (TipoDaException exception){
             // Tratamento do erro
         }
-
-    ⋄ Não tratar erros faz a execução do programa terminar
-
-    ⋄Tratar erros:
-        • Permite que o programa execute uma determinada lógica caso o erro ocorra
-        • Permite que p programa continue a execução
-
