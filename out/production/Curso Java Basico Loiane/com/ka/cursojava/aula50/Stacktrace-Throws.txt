@@ -1,0 +1,30 @@
+Classe Throwable
+    ◆ Classe mãe de todas as exceptions
+    ◆ Possui métodos úteis
+    ◆ Método getMessage()
+        ◊ Retorna descrição do erro
+    ◆ Método printStackTrace()
+        ◊ Imprime o stack trace do erro
+    ◆ Não usar:
+        try {
+            System.out.println(numeradores[i] + " / " + denominadores[i] + " = " + numeradores[i] / denominadores[i]);
+        } catch (Throwable exc) {
+            System.out.println(exc.getMessage());
+            exc.printStackTrace();
+        }
+    ◆ Usar:
+        try {
+            System.out.println(numeradores[i] + " / " + denominadores[i] + " = " + numeradores[i] / denominadores[i]);
+        } catch (Exception exc) {
+            System.out.println(exc.getMessage());
+            exc.printStackTrace();
+        }
+
+Error: resulta na finalização do programa
+Exception: possível tratar o erro e continuar a execução do programa
+________________________________________________________________________________________________________________________
+
+Palavra-chave throws
+    ◆ Método pode disparar uma Exception
+    ◆ Passa a responsabilidade para quem for utilizar o método
+    ◆ Exceptions disparadas em tempo de execução (ArrayOutofBounds, Arithmetic) não necessitam de throws explicitamente

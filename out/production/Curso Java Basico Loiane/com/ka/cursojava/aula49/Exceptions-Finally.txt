@@ -24,5 +24,8 @@ try-catch-finally
         Essa linha é impressa sempre após o try ou o catch
 
     ⋄ O finally só não é executado quando há o System.exit(0). Saída do FinallyPegadinha como exemplo:
+        4 / 2 = 2
+        Essa linha é impressa sempre após o try ou o catch
 
+        Erro ao dividir por zero
 
