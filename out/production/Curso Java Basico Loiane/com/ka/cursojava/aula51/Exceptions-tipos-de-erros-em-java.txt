@@ -1,0 +1,17 @@
+Exceptions: tipos de erros no Java
+    ◆ Object
+        ◊ Throwable
+            ▶ Error (Unchecked)
+            ▶ Exception
+                ▷ IOException (Checked)
+                ▷ SQLException (Checked)
+                ▷ RuntimeException (Unchecked)
+                    ► ArrayIndexOutOfBoundsException
+                    ► NullPointerException
+                    ► ArithmeticException
+                    ► ClassCastException
+
+
+Não é possível tratar tipos Error no Java
+Exceções unchecked são exceções que não precisam ser obrigatoriamente tratadas dentro do nosso código
+Exceções checked são exceções que precisam ser tratadas obrigatoriamente pelo programador
