@@ -12,16 +12,18 @@ public class Agenda {
     public void adicionarContato(Contato c) throws AgendaCheiaException {
         boolean cheia = true;
         for (int i = 0; i < contatos.length; i++) {
-            if (contatos[i] != null) {
+            if (contatos[i] == null) {
                 contatos[i] = c;
                 cheia = false;
-            }
-            if (cheia) {
-                // lançar exception
-                throw new AgendaCheiaException();
+                break;
             }
         }
+        if (cheia) {
+            // lançar exception
+            throw new AgendaCheiaException();
+        }
     }
+
 
     public int consultarContatoPorNome(String nome) throws ContatoNaoExisteException {
         for (int i = 0; i < contatos.length; i++) {
@@ -38,6 +40,12 @@ public class Agenda {
 
     @Override
     public String toString() {
-        return "Contatos: " + Arrays.toString(contatos);
+        String s = "";
+        for (Contato c : contatos) {
+            if (c != null) {
+                s += c.toString() + "\n";
+            }
+        }
+        return s;
     }
 }
